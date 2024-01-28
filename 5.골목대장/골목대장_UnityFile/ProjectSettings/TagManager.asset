@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PLAYER
+  - PORTAL
+  - ITEM
+  - MONSTER
+  - TROPHY
+  - OBSTACLE
+  - DEATH
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PLAYER
+  - PORTAL
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: backbackback
+    uniqueID: 2814833801
+    locked: 0
+  - name: BackGround
+    uniqueID: 2876399447
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 1581487801
+    locked: 0
+  - name: Tree
+    uniqueID: 1991233367
+    locked: 0
+  - name: Effect
+    uniqueID: 402583709
+    locked: 0
