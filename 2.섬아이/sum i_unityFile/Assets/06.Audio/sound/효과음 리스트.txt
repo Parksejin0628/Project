@@ -1,0 +1,26 @@
+[!] ● button_push
+- 버튼 입력음
+
+[!] ● DoneSong__Island_Kid
+- 로비 배경음
+
+[!] ● DoneEffect__Anxiety
+- 꿈 속에서만 들리는 게임 배경음
+
+[!] ● equip_mandarine
+- 귤 조각 획득음
+
+[!] ● char_damaged
+- 주인공 피격음
+
+[!] ● jumped
+- 점프 효과음
+
+[!] ● ship_sound
+- 수면 상/하강 시작음
+
+[!] ● water
+- 수면 상/하강음
+
+[!] ● transition
+- 가상/현실 전환음
