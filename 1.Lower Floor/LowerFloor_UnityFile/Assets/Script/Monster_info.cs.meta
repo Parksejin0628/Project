@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a99ba4f500b1f81489aa4dccec569120
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - M_area: {fileID: 4734277119871747640, guid: 985779b6b8b04b2448291ee8e9858408, type: 3}
+  - hpBarPrefab: {fileID: 5692306809095712317, guid: 0b0f828e902060d4d9bdb1031a5b7a29, type: 3}
+  - UIparent: {fileID: 1093390243088663474, guid: b44bccabf7cddd84cba1e45b36b4d727, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

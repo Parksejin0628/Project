@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: ab395c9caf8aae84286271b6c44e146c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d61f34c9c2960940a80142285d1bd80
+      internalID: -531348010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 285
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1172a5a96903254881d9b28b76b4a47
+      internalID: 65360515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 259
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12631246ca220094d87886e025fb3834
+      internalID: 614359506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 258
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4b9728582fca64d9b971fcaee6d1a5
+      internalID: 994527627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 276
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f4685dee7e197449d8492becae2be3
+      internalID: 1522490099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 277
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b377d3b65e248bb4db64a8650808037a
+      internalID: -1770233693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 276
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b4feec7595b24d9baf461fbd991a3
+      internalID: 1507901725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b092f0284fc60f489c28d1820cfd9df
+      internalID: -1800716773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 241
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b64aa886d84f54781e3a5a5fcf02a3
+      internalID: 558666972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 217
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51acc76e8ede6d4c85b8f647f829a64
+      internalID: -131776221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 217
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86b52a38fefe90479930f4b138a7971
+      internalID: 1379618128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 201
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9e3e71bac01104ca2a87ba97cd2407
+      internalID: -1932711258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 201
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0499a7fe4b23f4479ee4329f3300e47
+      internalID: 1729383846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 178
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221356fdff713b47a87f4391a1d3a3e
+      internalID: -532807416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 180
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e040630b273e4d9a5756f42b8e6d7
+      internalID: -164967420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 180
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f045cc1aaca8daa478aae8c3b99dc663
+      internalID: -1720496175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 181
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6861a7338b970b4cb886283e8e936a8
+      internalID: -1011401197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 166
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf79ad90a5e6b54ba28215a46447d11
+      internalID: 1682447269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 166
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86ba315a91378548a417b22b6f462aa
+      internalID: 1781464133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 141
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23493a16a5dabef4b95bd774ceb84726
+      internalID: -2139350045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 141
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925bf8624702f7941be1ae476cc66a71
+      internalID: 1895216234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 141
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f213d65f48c8f1547a794e330a773c83
+      internalID: -1736972852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d066d8d924b22844992cfee3a6d5e3c
+      internalID: 1221981236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4db0a9e6a97ce4f92ed6dac937c729
+      internalID: 2050964567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 117
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a839624bdfe6ed4ba9c4643a9a9e391
+      internalID: 1997003413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 105
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd6b81e73706af409d4e6a4c463ed70
+      internalID: 756268920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 105
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eb63bcfec34e945a0620c89b35d712
+      internalID: 349583653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 105
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842a417265d74f47b065ede10b90cfa
+      internalID: 914735630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 41
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9146bf4f6c117a40aefaca601f69434
+      internalID: 1828961377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c081a8d40ae024c8c3630506ce3b24
+      internalID: 2130631382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 55
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77979c402ce491a4e9125f1da3702380
+      internalID: -1363494635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 57
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e4ca2e8b7ec2b49a3082f534c241d6
+      internalID: -1943865385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_32
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 55
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048a525e7eafea4e8ab57db7c3accce
+      internalID: 532180958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 54
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdf67a0609f529489d0bb9720038437
+      internalID: 1376539958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85379c781ec2d549aee5752c2eacaff
+      internalID: 22938258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd3ec848e2f234faa4f73d7f496662
+      internalID: 700279954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb09c5c03b5a842be3e61810fecbf5
+      internalID: 1201728188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_37
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 5
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f825ff8cf7325e4280f767e94e31802
+      internalID: -1783361690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bed9f1a98ee0f4da99aca08888dd10
+      internalID: -575235089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSheet-BlockedUpDoors_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fac7f4549d9634aa45d29262d402a3
+      internalID: 1523714911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TileSheet-BlockedUpDoors_0: -531348010
+      TileSheet-BlockedUpDoors_1: 65360515
+      TileSheet-BlockedUpDoors_10: 1379618128
+      TileSheet-BlockedUpDoors_11: -1932711258
+      TileSheet-BlockedUpDoors_12: 1729383846
+      TileSheet-BlockedUpDoors_13: -532807416
+      TileSheet-BlockedUpDoors_14: -164967420
+      TileSheet-BlockedUpDoors_15: -1720496175
+      TileSheet-BlockedUpDoors_16: -1011401197
+      TileSheet-BlockedUpDoors_17: 1682447269
+      TileSheet-BlockedUpDoors_18: 1781464133
+      TileSheet-BlockedUpDoors_19: -2139350045
+      TileSheet-BlockedUpDoors_2: 614359506
+      TileSheet-BlockedUpDoors_20: 1895216234
+      TileSheet-BlockedUpDoors_21: -1736972852
+      TileSheet-BlockedUpDoors_22: 1221981236
+      TileSheet-BlockedUpDoors_23: 2050964567
+      TileSheet-BlockedUpDoors_24: 1997003413
+      TileSheet-BlockedUpDoors_25: 756268920
+      TileSheet-BlockedUpDoors_26: 349583653
+      TileSheet-BlockedUpDoors_27: 914735630
+      TileSheet-BlockedUpDoors_28: 1828961377
+      TileSheet-BlockedUpDoors_29: 2130631382
+      TileSheet-BlockedUpDoors_3: 994527627
+      TileSheet-BlockedUpDoors_30: -1363494635
+      TileSheet-BlockedUpDoors_31: -1943865385
+      TileSheet-BlockedUpDoors_32: 532180958
+      TileSheet-BlockedUpDoors_33: 1376539958
+      TileSheet-BlockedUpDoors_34: 22938258
+      TileSheet-BlockedUpDoors_35: 700279954
+      TileSheet-BlockedUpDoors_36: 1201728188
+      TileSheet-BlockedUpDoors_37: -1783361690
+      TileSheet-BlockedUpDoors_38: -575235089
+      TileSheet-BlockedUpDoors_39: 1523714911
+      TileSheet-BlockedUpDoors_4: 1522490099
+      TileSheet-BlockedUpDoors_5: -1770233693
+      TileSheet-BlockedUpDoors_6: 1507901725
+      TileSheet-BlockedUpDoors_7: -1800716773
+      TileSheet-BlockedUpDoors_8: 558666972
+      TileSheet-BlockedUpDoors_9: -131776221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
