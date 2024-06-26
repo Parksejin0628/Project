@@ -43,6 +43,7 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //컷씬 구현
         if (SceneStart)
         {
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
@@ -75,7 +76,7 @@ public class UIManager : MonoBehaviour
                 imageArray[i].gameObject.SetActive(false);
         }
     }
-
+    //체력(귤)UI 업데이트
     void UpdateHpUI()
     {
         for(int i=0; i<playerCtrl.maxHp; i++)
@@ -90,7 +91,7 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-
+    //밀물썰물 시간 UI 업데이트
     void UpdateWaveTimeUI()
     {
         if(waveTimeCtrl.isUpWave == true)

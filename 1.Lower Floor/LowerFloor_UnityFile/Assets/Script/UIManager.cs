@@ -110,7 +110,7 @@ public class UIManager : MonoBehaviour
             Debug.Log("스킬UI를 비활성화합니다");
         }
     }
-
+    //보조무기의 상태에 따라 보조무기 UI를 변화시킴
     void CheckWeapon()
     {
         if (playerState.auxiliaryWeapon.count <= 0)

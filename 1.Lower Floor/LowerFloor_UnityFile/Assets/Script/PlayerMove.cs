@@ -735,10 +735,12 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    private void UseWeapon()
+    
+    private void UseWeapon() 
     {
         ref Item usingWeapon = ref state.auxiliaryWeapon;
-        GameObject weaponProjectileClone;
+        GameObject weaponProjectileClone; //Inspector에서 투사체 프리팹 설정
+        //마우스 방향으로 투사체를 던지기 위한 계산
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 projectileDirection = (mousePosition - new Vector2(transform.position.x, transform.position.y)).normalized;
         float angle = Mathf.Atan2(projectileDirection.y, projectileDirection.x) * Mathf.Rad2Deg;
@@ -746,6 +748,7 @@ public class PlayerMove : MonoBehaviour
         {
             return;
         }
+        //메스 구현
         if (usingWeapon.name == InteractionObjectName.SCALPEL)
         {
             SoundManager.instance.PlaySfx(SoundManager.Sfx.Scalpel);
@@ -753,6 +756,7 @@ public class PlayerMove : MonoBehaviour
             weaponProjectileClone = Instantiate(projectile[usingWeapon.name], transform.position, Quaternion.Euler(0, 0, angle));
             weaponProjectileClone.GetComponent<ProjectileCtrl>().Init(usingWeapon.name, projectileDirection);
         }
+        //파이프 구현
         else if(usingWeapon.name == InteractionObjectName.PIPE)
         {
             if(canUsePipe == false)
@@ -767,6 +771,7 @@ public class PlayerMove : MonoBehaviour
             weaponProjectileClone = Instantiate(projectile[usingWeapon.name], transform.position, Quaternion.Euler(0, 0, angle));
             weaponProjectileClone.GetComponent<ProjectileCtrl>().Init(usingWeapon.name, projectileDirection);
         }
+        //혈액팩 구현
         else if(usingWeapon.name == InteractionObjectName.BLOODPACK)
         {
             if(canUseBloodpack == false)
@@ -784,6 +789,7 @@ public class PlayerMove : MonoBehaviour
             weaponProjectileClone = Instantiate(projectile[usingWeapon.name], transform.position, Quaternion.Euler(0, 0, angle));
             weaponProjectileClone.GetComponent<ProjectileCtrl>().Init(usingWeapon.name, projectileDirection);
         }
+        //소화기 구현
         else if(usingWeapon.name == InteractionObjectName.FIREEXTINGUISHER)
         {
             if (canUseFireextinguisher == false)

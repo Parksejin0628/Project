@@ -9,7 +9,7 @@ using System.IO.IsolatedStorage;
 
 public class BossCtrl : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     static public BossCtrl instance;
     public GameObject player;
     public GameObject gameoverBackground;
@@ -64,6 +64,7 @@ public class BossCtrl : MonoBehaviour
         }
     }
 
+    //보스전이 시작한지 시간이 얼마나 지났는지 확인하여 패턴을 실행
     void ControllPattern()
     {
         if (patternTime >= 75 && isPerformCrack[0] == false)
@@ -155,6 +156,7 @@ public class BossCtrl : MonoBehaviour
         }
     }
 
+    //보스전 시작시 실행
     public void InitBoss()
     {
         StartCoroutine(StartPattern());
@@ -169,6 +171,7 @@ public class BossCtrl : MonoBehaviour
         SoundManager.instance.PlayBgm(SoundManager.Bgm.Boss, true);
     }
 
+    //보스전 시작시 시간을 측정하기 위한 코루틴
     IEnumerator StartPattern()
     {
         for(int i=0; i<176; i++)
@@ -178,6 +181,8 @@ public class BossCtrl : MonoBehaviour
         }
         
     }
+
+    //Crack패턴, 보스 애니메이션을 실행시킨 후 카메라를 움직이며 잔해들을 떨어지게 함
     IEnumerator PerformCrack(float duration, bool isEnd)
     {
 
@@ -222,6 +227,7 @@ public class BossCtrl : MonoBehaviour
         player.GetComponent<PlayerMove>().canMove = true;
         isPattern = false;
     }
+    //Crack 패턴 타이밍에 맞게 소리 출력
     IEnumerator CrackSound()
     {
         yield return new WaitForSeconds(0.4f);
@@ -231,6 +237,7 @@ public class BossCtrl : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         SoundManager.instance.PlaySfx(SoundManager.Sfx.BossAttack);
     }
+    //Shock 패턴, 애니메이션 실행 후 점점 커지면서 데미지를 주는 원형 파동 생성
     IEnumerator PerformShock()
     {
         isPattern = true;
@@ -246,7 +253,7 @@ public class BossCtrl : MonoBehaviour
         Destroy(initObject);
         isPattern = false;
     }
-
+    //call 패턴, runnermob 2마리 소환
     IEnumerator PerformCall()
     {
         SoundManager.instance.PlaySfx(SoundManager.Sfx.BossSummon);
@@ -259,7 +266,7 @@ public class BossCtrl : MonoBehaviour
         isCall = false;
         isPattern = false;
     }
-
+    //crack패턴에서 카메라를 흔드는 기능
     IEnumerator ShakeCamera()
     {
         SoundManager.instance.PlaySfx(SoundManager.Sfx.BossShaking);

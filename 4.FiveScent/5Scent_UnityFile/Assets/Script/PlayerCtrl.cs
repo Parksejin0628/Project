@@ -18,7 +18,7 @@ public class PlayerCtrl : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
 
-    bool isRunning = false; // Flag to indicate if the character is running
+    bool isRunning = false;
 
     void Awake()
     {
@@ -35,7 +35,7 @@ public class PlayerCtrl : MonoBehaviour
         Move();
         Interation();
     }
-
+    //캐릭터 움직임과 관련된 함수
     private void Move()
     {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
@@ -73,11 +73,11 @@ public class PlayerCtrl : MonoBehaviour
             animator.SetBool("isRun", false);
         }
 
-        // Adjust move speed based on running state
+        
         finallySpeed = baseSpeed * speedMultiples * (isRunning ? 2:1);
         myRigid.velocity = moveVector * finallySpeed;
     }
-
+    //상호작용을 하는 함수
     private void Interation()
     {
         if (interationObject != null)

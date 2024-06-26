@@ -50,6 +50,7 @@ public class PlayerCtrl : MonoBehaviour
             currentHp = 0;
             //GameOver
         }
+        //귤을 모두 채우면 엔딩
         if(currentHp == maxHp && canMove)
         {
             canMove = false;
@@ -69,6 +70,7 @@ public class PlayerCtrl : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //점프 회복을 위한 코드
         RaycastHit2D hit;
         CheckIsGround(LayerMask.GetMask("Ground"), out hit);
         Move();
@@ -81,6 +83,7 @@ public class PlayerCtrl : MonoBehaviour
             AudioManager.Inst.PlaySFX("jumped");
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpingBlockPower);
         }
+        //애니메이션 관련 수치 조정
         //Debug.Log(hit == true);
         anim.SetBool("isWalk", rigidbody2D.velocity.x != 0);
         anim.SetFloat("velocityY", rigidbody2D.velocity.y);
@@ -89,18 +92,21 @@ public class PlayerCtrl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
+        //오렌지를 먹을 시 점수(hp) 회복
         if(coll.CompareTag("Orange") && currentHp<maxHp)
         {
             AudioManager.Inst.PlaySFX("equip_mandarine");
             currentHp++;
             coll.gameObject.SetActive(false);
         }
+        //파도에 닿으면 게임오버
         if(coll.CompareTag("Wave"))
         {
             GameManager.instance.DeadPlayer();
         }
     }
 
+    //피격과 관련된 부분들 구현
     private void OnCollisionEnter2D(Collision2D coll)
     {
         if(isHit == false)
@@ -138,13 +144,14 @@ public class PlayerCtrl : MonoBehaviour
             StartCoroutine(KnockBack());
         }
     }
-
+    //플레이어 움직임 조작
     void Move()
     {
         if(canMove == false)
         {
             return;
         }
+        //wasdVector는 inputSystem을 이용해 OnMove를 호출하여 가져온 정보
         rigidbody2D.velocity = new Vector2(wasdVector.x * moveSpeed, rigidbody2D.velocity.y); 
         if(wasdVector.x > 0)
         {
@@ -200,7 +207,7 @@ public class PlayerCtrl : MonoBehaviour
             jumpCount--;
         }
     }
-
+    //피격시 뒤로 밀려나며 일정 시간 동안 피격 면역 상태로 만드는 코드
     public IEnumerator KnockBack()
     {
         canMove = false;

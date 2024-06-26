@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //싱글톤 구현
         if(instance != null)
         {
             Destroy(this.gameObject);
@@ -23,7 +24,7 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
         DontDestroyOnLoad(gameObject);
     }
-
+    //게임의 메인 화면을 시작할 때 페이드인, 페이드아웃을 실행
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (isPlayerDead)
@@ -46,13 +47,13 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
+    //플레이어 사망 시 다시 시작
     public void DeadPlayer()
     {
         isPlayerDead = true;
         SceneManager.LoadScene(mainSceneName);
     }
-
+    //페이드 아웃
     public IEnumerator Fadeout(GameObject Scene)
     {
         Image SceneImage = Scene.GetComponent<Image>();
@@ -63,7 +64,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
     }
-
+    //페이드 인
     public IEnumerator Fadein(GameObject Scene)
     {
         Image SceneImage = Scene.GetComponent<Image>();

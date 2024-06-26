@@ -120,7 +120,7 @@ public class InteractionManager : MonoBehaviour
                 player.GetComponentInChildren<State>().GetItem(obtainedItem);
                 break;
         }
-        //상호작용한 물체 삭제, 추후에 각 카테고리별 아이템이 생기면 삭제```
+        //상호작용한 물체 삭제
         interactionObject.SetActive(false);
         return true;
     }

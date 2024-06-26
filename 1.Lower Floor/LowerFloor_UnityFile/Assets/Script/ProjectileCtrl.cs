@@ -63,6 +63,7 @@ public class ProjectileCtrl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //적에게 투사체가 닿을 시 무기에 따라 공격
         if(other.CompareTag("Monster"))
         {
             Monster_info monster = other.GetComponent<Monster_info>();
@@ -91,13 +92,14 @@ public class ProjectileCtrl : MonoBehaviour
                 DestroyProjectile();
             }
         }
+        //투사체가 지형에 부딪히면 사라짐
         else if(other.CompareTag("Map"))
         {
             DestroyProjectile();
         }
         
     }
-
+    //투사체를 생성한 후 투사체의 특성 및 방향을 적용하기 위한 함수, PlayerMove.cs에서 호출
     public void Init(InteractionObjectName name, Vector2 dir)
     {
         throwingDirection = dir;
@@ -133,6 +135,7 @@ public class ProjectileCtrl : MonoBehaviour
                 break;
         }
     }
+    //투사체가 부숴질 때 투사체 특성에 따라 효과를 보여줌
     private void DestroyProjectile()
     {
         switch(projectileName)
@@ -153,6 +156,7 @@ public class ProjectileCtrl : MonoBehaviour
         }
         Destroy(gameObject);
     }
+    //사거리 밖으로 투사체가 벗어날시 투사체 파괴
     private void CheckRange()
     {
         nowPos = transform.position;
