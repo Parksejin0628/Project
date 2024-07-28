@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+           <Title>Unity Coroutine</Title>
+           <Author>Rito</Author>
+           <Description>Create Unity Coroutine</Description>
+           <Shortcut>crt</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[
+                private IEnumerator $selected$$end$Routine()
+                {
+                    yield return new WaitForEndOfFrame();
+                    var WFS = new WaitForSeconds(0.01f);
+                    
+                    /* Thread */
+                    while(true)
+                    {
+                        yield return WFS;
+                        
+                        
+                    }
+                }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

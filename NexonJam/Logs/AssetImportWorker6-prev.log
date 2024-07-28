@@ -1,0 +1,1351 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.34f1 (4886f5360533) revision 4753141'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 15610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Park Sejin/Documents/GitHub/NexonJam
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+60545
+Successfully changed project path to: C:/Users/Park Sejin/Documents/GitHub/NexonJam
+C:/Users/Park Sejin/Documents/GitHub/NexonJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25880] Host "[IP] 10.16.8.250 [Port] 0 [Flags] 2 [Guid] 3988690294 [EditorId] 3988690294 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JFARQV6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25880] Host "[IP] 10.16.8.250 [Port] 0 [Flags] 2 [Guid] 3988690294 [EditorId] 3988690294 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JFARQV6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 53.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.34f1 (4886f5360533)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Park Sejin/Documents/GitHub/NexonJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.033900 seconds.
+- Loaded All Assemblies, in  0.812 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.517 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.446 seconds
+Refreshing native plugins compatible for Editor in 33.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.560 seconds
+Domain Reload Profiling: 4990ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (2911ms)
+		LoadAssemblies (2302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (824ms)
+			TypeCache.Refresh (724ms)
+				TypeCache.ScanAssembly (656ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (742ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 126.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (354.1 KB). Loaded Objects now: 6656.
+Memory consumption went from 237.7 MB to 237.4 MB.
+Total: 8.930600 ms (FindLiveObjects: 1.095100 ms CreateObjectMapping: 0.612000 ms MarkObjects: 6.641500 ms  DeleteObjects: 0.580200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/HoverAnimation.cs: 581febbb1e68f4788cd51dd85aa88cb6 -> ef410ed820288a313603e32572567da5
+  custom:scripting/monoscript/fileName/CanvasGroupAnimation.cs: cdaec9a17bfd778b819a125d601c5d9d -> cbaf14739d5deaab4553eb96d7ddecc9
+  custom:scripting/monoscript/fileName/SoundOnEnable.cs: beecccf5ab1fd96022e8049ee71d3861 -> 7dd58ad747558a9d44febd80f8f1d8e9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/FillImageAnim.cs: 50801aa7403c3ec32721e768deec309d -> 7f04afd3250785bac95f7c5bb5a2d804
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Loading.cs: d2687a4c35153b9773113b6ec963b206 -> 6632fd05ada41f7fd7027e3a3b6ecb2e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PositionLerpAnimation.cs: f62459ba8bee62e81b21106ff49fe4b5 -> 8c2f9c48c62788da138cf220220a568c
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RotationAnimation.cs: 2fc995a0516e1501ca9e2bd62e95f331 -> 8fdc50408351796c5b85aea97b99c803
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ButtonSound.cs: 942698d3fe8d4ed02fd790819d4d63da -> d73cf73b297d33e10c74b31e39dd7781
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 3f04bb71b87e8d48c868e5edc84da13e -> 0ca54484a69b9b213a814a2cd7fae118
+  custom:scripting/monoscript/fileName/MySounder.cs: 28bb195a1d7647727eeb6557e1d114d8 -> 60319f4b1d97baa5a77685e8f8b14fc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61542.353280 seconds.
+  path: Assets/03_Prefabs/Item/Chapter02 Item/Apple.prefab
+  artifactKey: Guid(f76ef3025b08a6a408cda45be72bebdc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/03_Prefabs/Item/Chapter02 Item/Apple.prefab using Guid(f76ef3025b08a6a408cda45be72bebdc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c85a7d8aac484b1ed6d5862fa4bd670a') in 0.584836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/AxOutlined.png
+  artifactKey: Guid(9f505aac594d4db419cfb1a0beb29afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/AxOutlined.png using Guid(9f505aac594d4db419cfb1a0beb29afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff84e0be032aff8b9b9c6c7a518b0271') in 0.185470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/TorchOutlined.png
+  artifactKey: Guid(5b9aede8fb1276d44ab57fd46ecc9e98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/TorchOutlined.png using Guid(5b9aede8fb1276d44ab57fd46ecc9e98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c2a8c2e445719c53b1e782a02cd22ba8') in 0.081495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BarBigRed.prefab
+  artifactKey: Guid(51a6bb25b72f09d46b75d269d3ef44ec) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BarBigRed.prefab using Guid(51a6bb25b72f09d46b75d269d3ef44ec) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c59a13240f71c68d1bd27558e2e7c408') in 0.068055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/ChatMessageSmall.prefab
+  artifactKey: Guid(e0e6487ac400eac4e92dc21eecdbeb76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/ChatMessageSmall.prefab using Guid(e0e6487ac400eac4e92dc21eecdbeb76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+The method get_fontSharedMaterials was not found on Text (TMP)Name. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Text (TMP)Separator. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Text (TMP)Time. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Text (TMP)Message. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: '11409612c33fc797346819100e24028e') in 0.242904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BubbleRed.prefab
+  artifactKey: Guid(bddad31535b18284989fe7cf27c1a20c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BubbleRed.prefab using Guid(bddad31535b18284989fe7cf27c1a20c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f296f9ab7ddece3bade86875275771f') in 0.049700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/SMALL BTNS-2.png
+  artifactKey: Guid(1c9aa11bc5a69c74dbf955ff52ed4dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/SMALL BTNS-2.png using Guid(1c9aa11bc5a69c74dbf955ff52ed4dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1937c80385e7a1d2f6442b2ba7dfb800') in 0.041043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/BinGreen.png
+  artifactKey: Guid(814e2f18883081b4ba53ecb1a347088f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/BinGreen.png using Guid(814e2f18883081b4ba53ecb1a347088f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2164cdf7ca97b2fa108085f074e34b00') in 0.038954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Buttons/Inactive2.png
+  artifactKey: Guid(23eb8806d658f0b45bf19631ffeca5f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Buttons/Inactive2.png using Guid(23eb8806d658f0b45bf19631ffeca5f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e680244e0d4ebdab1ea55769b89cf44') in 0.034188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/CurrencyHolder.prefab
+  artifactKey: Guid(94934712e698166469e8fea7330100ec) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/CurrencyHolder.prefab using Guid(94934712e698166469e8fea7330100ec) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5da3f09e634acfa1c438b4ce74d1ce4e') in 0.033145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/SavedGame.prefab
+  artifactKey: Guid(e005567b90d07f148b86b96db93833fa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/SavedGame.prefab using Guid(e005567b90d07f148b86b96db93833fa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+The method get_fontSharedMaterials was not found on Text (TMP)Name. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Text (TMP)Info. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: 'be89325d89c26fb15cbbb7736fd75dca') in 0.222157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/06_Animations/Player/JumpDust.anim
+  artifactKey: Guid(141eed3bd98494e4785e93082e923d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/06_Animations/Player/JumpDust.anim using Guid(141eed3bd98494e4785e93082e923d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8448d5b5199836573526310212c29bf6') in 0.037064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/02_Scripts/Unit/Core/BaseMove.cs
+  artifactKey: Guid(859f237c8d903614c8629a920941a572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02_Scripts/Unit/Core/BaseMove.cs using Guid(859f237c8d903614c8629a920941a572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73d70d405c3f29cb5b95d667112dd6b3') in 0.023964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Texts/Text (TMP)Display.prefab
+  artifactKey: Guid(8c73876853b3dd24bba8cd89d43b33f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Texts/Text (TMP)Display.prefab using Guid(8c73876853b3dd24bba8cd89d43b33f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+The method get_fontSharedMaterials was not found on Text (TMP)Display. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: 'bd1ddefeae0851a3b5f5281338b95933') in 0.096083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartyTools/ExcelImporter/ProjectSettings/Physics2DSettings.asset
+  artifactKey: Guid(f31b2538361f6f9449c1a4695cff42eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ThirdPartyTools/ExcelImporter/ProjectSettings/Physics2DSettings.asset using Guid(f31b2538361f6f9449c1a4695cff42eb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e70ea8639716ffbdfc01b1ed5134081') in 0.030336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/InfoGold.png
+  artifactKey: Guid(aac2b21a149faec41acb32124727d202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/InfoGold.png using Guid(aac2b21a149faec41acb32124727d202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7c5bc0ee37a675b9b72c10377353ed0') in 0.035699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/TagHolderVertical.prefab
+  artifactKey: Guid(e0b0d13798f6cc24b93c593a69fad3bc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/TagHolderVertical.prefab using Guid(e0b0d13798f6cc24b93c593a69fad3bc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e13a193b90146c3e67013ddff157db1') in 0.032700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/03_Prefabs/Item/Common Item/Bottle Water.prefab
+  artifactKey: Guid(3a35daba178b15c489fb56afaf517dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/03_Prefabs/Item/Common Item/Bottle Water.prefab using Guid(3a35daba178b15c489fb56afaf517dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f04f006f54a9f3eeec11807376c1e87') in 0.095623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/Topbar2.png
+  artifactKey: Guid(be1e5740ad85bd747aa98fea0e441904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/Topbar2.png using Guid(be1e5740ad85bd747aa98fea0e441904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd08ae4a4a78e9f44c07707413d55125b') in 0.040058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Skull.png
+  artifactKey: Guid(befd28a6a4510e748a7a06553705f91d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Skull.png using Guid(befd28a6a4510e748a7a06553705f91d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '930c7430cbe8080c624049654ccb861d') in 0.040350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MENU PNGS/Dialog.png
+  artifactKey: Guid(24343434ae6d6b14aa3e5eed3f21ca0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MENU PNGS/Dialog.png using Guid(24343434ae6d6b14aa3e5eed3f21ca0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4e3ac24c0f556f9cb44fbc657f9e699') in 0.040626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Bow01Outlined.png
+  artifactKey: Guid(179a9d181b8a3e043a03ab8c4ca820bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Bow01Outlined.png using Guid(179a9d181b8a3e043a03ab8c4ca820bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '874e929f54fd01951b1656889da1e7ae') in 0.039064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Chest01ContentsGems.png
+  artifactKey: Guid(85c514cb2efee7e4d83c617883d2a9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Chest01ContentsGems.png using Guid(85c514cb2efee7e4d83c617883d2a9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b939a453c8ef04e1078304e4c2f67914') in 0.039878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/mini bar purple.png
+  artifactKey: Guid(036258aaf853b76469d596abfe132149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/mini bar purple.png using Guid(036258aaf853b76469d596abfe132149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36df88a1ff2ccca091d72fb5704efa9d') in 0.049850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/holder1.png
+  artifactKey: Guid(4476ffa037dd1394b88790cf33f5a2d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/holder1.png using Guid(4476ffa037dd1394b88790cf33f5a2d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18aa845139ba2743b322ca5931da3057') in 0.038377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/LockGreenDark.png
+  artifactKey: Guid(73de4b60526319147a30d26702934e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/LockGreenDark.png using Guid(73de4b60526319147a30d26702934e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '332a168ea18b435d479511c2bc026002') in 0.035497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BarBigBlue.prefab
+  artifactKey: Guid(a94df24f3fc1c7f4cac96b3d276c211f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Bars/BarBigBlue.prefab using Guid(a94df24f3fc1c7f4cac96b3d276c211f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e2e484286701ddb5e93e9d509d25b37') in 0.034116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LeaderBoard PNGS/leaderboardSprite.png
+  artifactKey: Guid(27af43a545d5ee846a483afdc9549b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LeaderBoard PNGS/leaderboardSprite.png using Guid(27af43a545d5ee846a483afdc9549b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2f414dde6b93894137b1e415c8f48ee') in 0.047155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/04_Sources/Images/Unit/Player/Walk/character_walk4.png
+  artifactKey: Guid(98a866c651ed7994bafae6d3e6a1dc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04_Sources/Images/Unit/Player/Walk/character_walk4.png using Guid(98a866c651ed7994bafae6d3e6a1dc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2c6d2598adcc545411b8660621f717b') in 0.030700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.336407 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Bow01.png
+  artifactKey: Guid(9fe47cc5276ff7b40be82a66dce5be0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Bow01.png using Guid(9fe47cc5276ff7b40be82a66dce5be0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b1e379ad6738fe3dc25219a5cb835fd7') in 0.040061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/16/Trousers.png
+  artifactKey: Guid(a9505b3633571db408abd310b3924c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/16/Trousers.png using Guid(a9505b3633571db408abd310b3924c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fefa2bc8c5ed9e17c350c84edf27e0f2') in 0.044995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/top pink.png
+  artifactKey: Guid(a79119b5b02f90b4198d59cf686b8267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/top pink.png using Guid(a79119b5b02f90b4198d59cf686b8267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '103bad2f51baae1ab2f4bf5e2b9ad43c') in 0.043282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Drop.png
+  artifactKey: Guid(8dcc3160b42dc8a4ab0b61e6c90dcdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Drop.png using Guid(8dcc3160b42dc8a4ab0b61e6c90dcdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '192c8dae9be46df10cda51c2d9dc2c0c') in 0.040347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MENU PNGS/DialogHeader.png
+  artifactKey: Guid(3d3d06801946540428ff07fba3616a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MENU PNGS/DialogHeader.png using Guid(3d3d06801946540428ff07fba3616a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec342941a05b3c0b2f849671b3bb7f44') in 0.041760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/TorchOff.png
+  artifactKey: Guid(36cda4be0fb621b4e83c75ee05eda261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/TorchOff.png using Guid(36cda4be0fb621b4e83c75ee05eda261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbfc7cf1d9a8f20111fba0200c541e12') in 0.035180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/Ellipse 2.png
+  artifactKey: Guid(dc01c624b74b00047b35e0f6b88d4dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS/Ellipse 2.png using Guid(dc01c624b74b00047b35e0f6b88d4dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41444202600f9c84154a3bfc24a565bc') in 0.039764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/top green.png
+  artifactKey: Guid(b84253fc321ebf7419a21f6d0b05f2f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/top green.png using Guid(b84253fc321ebf7419a21f6d0b05f2f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e1e0076ccba30671878717da811e412') in 0.036317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/FirstAidKit.png
+  artifactKey: Guid(f2d22c7e9d3fe314f856aefb24596bcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/FirstAidKit.png using Guid(f2d22c7e9d3fe314f856aefb24596bcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abfb31c0d0632f1ac77994966110d21b') in 0.033496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/X.png
+  artifactKey: Guid(a6d2a7b68a9926b4e8e9779a6abd333b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/X.png using Guid(a6d2a7b68a9926b4e8e9779a6abd333b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c65a127f1d17f780506bf080e8bb11b') in 0.042582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.425674 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/Group 16.png
+  artifactKey: Guid(df1217bf865ceae4bbf21d38198c2114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/Group 16.png using Guid(df1217bf865ceae4bbf21d38198c2114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a33ab33b4fbd566e004a2d191e4d97d') in 0.045293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006373 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Wrench.png
+  artifactKey: Guid(42875e69aec253f4d91fff3e44aae0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Wrench.png using Guid(42875e69aec253f4d91fff3e44aae0bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0c205ab82ca145d8518e8ec5678c3d6') in 0.043324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002125 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchRed.png
+  artifactKey: Guid(23fac111112ec1648804d03fa3482783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchRed.png using Guid(23fac111112ec1648804d03fa3482783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd117917360dbff2615d2aa2104a9eff') in 0.052534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015266 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowRight.png
+  artifactKey: Guid(4667747b5b18b7c42914b101cbd4779c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowRight.png using Guid(4667747b5b18b7c42914b101cbd4779c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df5d25cd4f54730a022a16879e3bbb5d') in 0.043551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/Dialog.png
+  artifactKey: Guid(1d904372000b3154fb41a000d74a55a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/Dialog.png using Guid(1d904372000b3154fb41a000d74a55a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ddd23fa3175f0f9b4c95131675d71bb') in 0.038572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Ring03.png
+  artifactKey: Guid(b1fe70c42cfef504e92928197d2f3361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Ring03.png using Guid(b1fe70c42cfef504e92928197d2f3361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0570af22e9cf66376bf273b7f53b7828') in 0.065187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/Shape 6.png
+  artifactKey: Guid(8f181af77e2e2944d975cc389ed7616c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/Shape 6.png using Guid(8f181af77e2e2944d975cc389ed7616c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '440b2ed9c3db3d99d45992a9d8474f5b') in 0.041204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/Message.prefab
+  artifactKey: Guid(f753c60d45466784c8f040bbe61ad86b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs/Panels/Message.prefab using Guid(f753c60d45466784c8f040bbe61ad86b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd507326db8e8002faa020e21d96987d4') in 0.247644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SpeakerLowGreenDark.png
+  artifactKey: Guid(be9f6dc86baa67d4aa67a1c3fac37129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SpeakerLowGreenDark.png using Guid(be9f6dc86baa67d4aa67a1c3fac37129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '847f428ee0bff213e69a6d8ff35e4df1') in 0.034922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/FBrown.png
+  artifactKey: Guid(94298ff074222bc4289c13c3f67329e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/FBrown.png using Guid(94298ff074222bc4289c13c3f67329e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8df380dcb76e8def24bc9a8fb3d6cef') in 0.043600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/DIALOG STATS/Group 15-3.png
+  artifactKey: Guid(84fff3f619be2214fa0c363d18c9337e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/DIALOG STATS/Group 15-3.png using Guid(84fff3f619be2214fa0c363d18c9337e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c58cb68011ae4ef520f46a43366dec9') in 0.040689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.115420 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Buttons/Gold1Hover.png
+  artifactKey: Guid(79fe52ad9c7a6f244ac209f9661fbe40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Buttons/Gold1Hover.png using Guid(79fe52ad9c7a6f244ac209f9661fbe40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99da9bc0dd49c36276b7f8cbaa4abd5f') in 0.037183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchGreenOutlined.png
+  artifactKey: Guid(235afbbce000a4b46a7d3a174d5cf0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchGreenOutlined.png using Guid(235afbbce000a4b46a7d3a174d5cf0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66078de467d82f9ddd602ca787d88069') in 0.048259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Squiggle.png
+  artifactKey: Guid(587b1128ac3014a43853f43006e295ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Squiggle.png using Guid(587b1128ac3014a43853f43006e295ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94ad1bcc45ffcdee9d2669820d3d386a') in 0.038052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LeaderBoard PNGS/LEADERBOARD.png
+  artifactKey: Guid(4fcfb652cbf89ed49bbeb70a132953ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LeaderBoard PNGS/LEADERBOARD.png using Guid(4fcfb652cbf89ed49bbeb70a132953ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9513cdd4c47d7b0f4f35e44691e81c84') in 0.047525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CheckSmallGreen.png
+  artifactKey: Guid(561140e361ceddd43b0d9635a3e6a176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CheckSmallGreen.png using Guid(561140e361ceddd43b0d9635a3e6a176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbb47cd8e2226551cc58603e024f79af') in 0.042960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/ArrowUpOutlined.png
+  artifactKey: Guid(e7aeba73966ea5541bf313c3bc634500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/ArrowUpOutlined.png using Guid(e7aeba73966ea5541bf313c3bc634500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19723fe1fc3a1a4f4d151a7d9c1180df') in 0.049492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/LetterBack.png
+  artifactKey: Guid(9dea2d50a1ba23a45a665a472b80cd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/LetterBack.png using Guid(9dea2d50a1ba23a45a665a472b80cd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd685478848dd69cb37be4111a8e633b5') in 0.044405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/DEMO/Demo.unity
+  artifactKey: Guid(d4ee0a2d91e3b934c982002f0d10c80d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/DEMO/Demo.unity using Guid(d4ee0a2d91e3b934c982002f0d10c80d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '277dd15dfc525cc5e743032c52c2c3a8') in 0.019805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6bb6929451c11cee79ef5240083a6a8') in 0.023625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SoundLowBrown.png
+  artifactKey: Guid(15b2930c715fe3b4395681436621351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SoundLowBrown.png using Guid(15b2930c715fe3b4395681436621351d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d707bdb00c90e9ebbe1f9634ee15025') in 0.039064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs using Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f097e6ef3c6e0cf6e6fe0068e21cd3ed') in 0.024222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/SCRIPTS/PositionLerpAnimation.cs
+  artifactKey: Guid(0a9591367eefca049961341e5a91537b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/SCRIPTS/PositionLerpAnimation.cs using Guid(0a9591367eefca049961341e5a91537b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ba450b10fb3641a5de65c50e5b394de2') in 0.023548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/MapOutlined.png
+  artifactKey: Guid(9cc7a4825211d994b9c586fd5d4b552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/MapOutlined.png using Guid(9cc7a4825211d994b9c586fd5d4b552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9aecddd88c13d96fd626522fd4b93d8d') in 0.040505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS
+  artifactKey: Guid(29de96799dd29084281f46b46e5bbd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/MORE PNGS using Guid(29de96799dd29084281f46b46e5bbd87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '089f6bac6f7e305229914ba231ad8650') in 0.019104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/MarsGreen.png
+  artifactKey: Guid(01cedb335aa58574b946fc6a370ca1cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/MarsGreen.png using Guid(01cedb335aa58574b946fc6a370ca1cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c9a4b3dd364f89e3fc25dfc22fbf810') in 0.036746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.178512 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs
+  artifactKey: Guid(e31fe9816cda6a94da66eb909ec3ade3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Prefabs using Guid(e31fe9816cda6a94da66eb909ec3ade3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc2550660c033c231b29b18fb2cad364') in 0.020172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/16/SwordGold.png
+  artifactKey: Guid(ba251359d39a20b428d63829f74087a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/16/SwordGold.png using Guid(ba251359d39a20b428d63829f74087a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67897dae83b5a394825cb13aace79d30') in 0.043612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchGreenCoinsSilverOutlined.png
+  artifactKey: Guid(fb50cebcfb5637b4ba4f58a6c96fcd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/PouchGreenCoinsSilverOutlined.png using Guid(fb50cebcfb5637b4ba4f58a6c96fcd5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0192f639f7d3e15bb0dcc6353ca9210') in 0.041799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/Layer 9.png
+  artifactKey: Guid(268d4dbf3324bd2459e170c648e1ad74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/GAMEPLAY/Layer 9.png using Guid(268d4dbf3324bd2459e170c648e1ad74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '039efe42475fde616455a43a57094b0a') in 0.039854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Sword02Outlined.png
+  artifactKey: Guid(91e6b8e02848b394bb2c7912ccc0e100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Sword02Outlined.png using Guid(91e6b8e02848b394bb2c7912ccc0e100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f79efa3db201682a43e311390d325720') in 0.043635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/GemLong01.png
+  artifactKey: Guid(388152fc1f31bd442813a47b265108c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/GemLong01.png using Guid(388152fc1f31bd442813a47b265108c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1474572f55fa605f2d1b089181384816') in 0.054162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/ArrowUp.png
+  artifactKey: Guid(f3f87f8e954fdf5448c90e1043b4ab87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/ArrowUp.png using Guid(f3f87f8e954fdf5448c90e1043b4ab87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ba6fbcff3746a233f32a2ecf26ad21d') in 0.050521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/DIALOG STATS/Group 15-4.png
+  artifactKey: Guid(8522ba690e65ab44dac261f8d01b8a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/DIALOG STATS/Group 15-4.png using Guid(8522ba690e65ab44dac261f8d01b8a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebde43e938d0b69cab2faf1c4ad8c84f') in 0.040264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Potion02.png
+  artifactKey: Guid(48513a721c0fc1a4183dc251dc779ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Potion02.png using Guid(48513a721c0fc1a4183dc251dc779ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '834e1e4f501e3f069bd3921a43b75a73') in 0.032924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Lifebuoy.png
+  artifactKey: Guid(578d992b0f332b448b3c81795142202f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Lifebuoy.png using Guid(578d992b0f332b448b3c81795142202f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98c1d9b82442a03f4757917da4c09561') in 0.045772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CupBrown.png
+  artifactKey: Guid(c87375f5174edc54299fc68e13353d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CupBrown.png using Guid(c87375f5174edc54299fc68e13353d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24bc08dfc78307e19000dfe43034be6f') in 0.039934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Check.png
+  artifactKey: Guid(54d41d2d5d66c764c93a2a88e5e488fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Check.png using Guid(54d41d2d5d66c764c93a2a88e5e488fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c17a348186a500c80f04fb479873a59f') in 0.033244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Arrow03.png
+  artifactKey: Guid(c86e33200122c63438aaba06bb02dfee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Arrow03.png using Guid(c86e33200122c63438aaba06bb02dfee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd883814f7f8a5992debdee9fedc9862a') in 0.035311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/ScrollBarHorizontal.png
+  artifactKey: Guid(1350e0dae189c784f8a5e56627ec0bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/ScrollBarHorizontal.png using Guid(1350e0dae189c784f8a5e56627ec0bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5512575c31deb1ffff4b3ec3ebefd588') in 0.041674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/LetterOpenOutlined.png
+  artifactKey: Guid(c0f9f9e79543d4f4aa5ba1bef305f76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/LetterOpenOutlined.png using Guid(c0f9f9e79543d4f4aa5ba1bef305f76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '785c3015c14d2d364380022ea8b6de8e') in 0.053896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Potion01Outlined.png
+  artifactKey: Guid(276f58a9acae2424ba2a707919fea8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Potion01Outlined.png using Guid(276f58a9acae2424ba2a707919fea8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0668ab695312f8ed47697c7a8abc26c') in 0.036503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SpeakerHighGreen.png
+  artifactKey: Guid(fef28d7943ccaf24d83300e00dc439af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SpeakerHighGreen.png using Guid(fef28d7943ccaf24d83300e00dc439af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a6c695d8db71c8621f43c61f70d6b17') in 0.045107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/SCRIPTS/ButtonSound.cs
+  artifactKey: Guid(227e5b63439b09643a649243e552f43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/SCRIPTS/ButtonSound.cs using Guid(227e5b63439b09643a649243e552f43f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35007d598fb22f8a188496e0fde55f4c') in 0.023257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/FillBlueSmall.png
+  artifactKey: Guid(4449610df51b9404f828608bff8ab1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/FillBlueSmall.png using Guid(4449610df51b9404f828608bff8ab1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '171aff08785c5fa0a89c6ac796ab6c89') in 0.034170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SkullBrown.png
+  artifactKey: Guid(ef2f8e715bb533c479b396b6d79a12eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SkullBrown.png using Guid(ef2f8e715bb533c479b396b6d79a12eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4769a3710d01d005da755b29bdc4aa31') in 0.038155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/FillBlue.png
+  artifactKey: Guid(a87d143cace9ca64581a7e24800179bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Bars/FillBlue.png using Guid(a87d143cace9ca64581a7e24800179bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '267e830094faff4b50c546a53086e0ba') in 0.035758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/StarBrown.png
+  artifactKey: Guid(11215c997027be4448b533cca58f23ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/StarBrown.png using Guid(11215c997027be4448b533cca58f23ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10f9994f12add171daa7cccf7123e209') in 0.049078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowSmallUpBrown.png
+  artifactKey: Guid(99627833d18721c4cbbbed18095356d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowSmallUpBrown.png using Guid(99627833d18721c4cbbbed18095356d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b98a462b0e8f276ac1ac38bc2b85de8c') in 0.066196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Wrench.png
+  artifactKey: Guid(3e2ee4a8b5cc4de4d80352b05e7364d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Wrench.png using Guid(3e2ee4a8b5cc4de4d80352b05e7364d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33e7520189e8d026dd0dc304cf70190a') in 0.033567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/Shape 1185.png
+  artifactKey: Guid(602743e25107a6a45bbfa90d3abd79e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/Shape 1185.png using Guid(602743e25107a6a45bbfa90d3abd79e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59be0ac56c22384753672c2480d0cbfc') in 0.034919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Star.png
+  artifactKey: Guid(9f49955ea7e0adf45bdaabad005e7418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Star.png using Guid(9f49955ea7e0adf45bdaabad005e7418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c831f4eba97e2ffe34bbedb4fe2fd747') in 0.042831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/FlashYellowOutlined.png
+  artifactKey: Guid(a51f4baf7d28cb44084bec5c1b4ddd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/FlashYellowOutlined.png using Guid(a51f4baf7d28cb44084bec5c1b4ddd02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74c281a49d580ec7ac4d6800d4a2b737') in 0.052744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/DropGreenDark.png
+  artifactKey: Guid(77bd818ea6bfed443805cd73a29f879a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/DropGreenDark.png using Guid(77bd818ea6bfed443805cd73a29f879a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55d2ab281c961211cd86db19a949b333') in 0.041614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape 41.png
+  artifactKey: Guid(cd370d310ae7eff4ab61f16844b302eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape 41.png using Guid(cd370d310ae7eff4ab61f16844b302eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72bc0780722141bbb2e6fe4a49d44b24') in 0.034345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Sword02.png
+  artifactKey: Guid(4c95fe17dc195e34ab3e54f3fe208111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Sword02.png using Guid(4c95fe17dc195e34ab3e54f3fe208111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3fc3e320886b4583aae0a32be8ddd87e') in 0.039336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/SucessDialog PNGS/EXIT.png
+  artifactKey: Guid(301e9d2ef33fe504d9bf4434c16ccd75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/SucessDialog PNGS/EXIT.png using Guid(301e9d2ef33fe504d9bf4434c16ccd75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35e4fc894b429d6af110117124fc271b') in 0.040145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/lock-4-512.png
+  artifactKey: Guid(87e8f8270fa1c114aaa842f0b08887ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/Settings PNGs/lock-4-512.png using Guid(87e8f8270fa1c114aaa842f0b08887ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e688574acd70e3adabde8925ff608c1b') in 0.036619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Ax.png
+  artifactKey: Guid(731b0b8453c507548939c95317f6b061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/32/Ax.png using Guid(731b0b8453c507548939c95317f6b061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b7696c1ba6a9c342a1587d609b85769') in 0.040052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/RepeatBrown.png
+  artifactKey: Guid(589f9acca5cba25449fafd0453cf2a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/RepeatBrown.png using Guid(589f9acca5cba25449fafd0453cf2a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d987e5e23a718440c73a34cf745672a') in 0.036260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/SMALL BTNS.png
+  artifactKey: Guid(deb68514ee738664695d644492e3630d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/MAIN MENU/SMALL BTNS.png using Guid(deb68514ee738664695d644492e3630d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3395dfb89c08fdfcd62aeca34730f7db') in 0.046530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/SETTINGS/Shape 132.png
+  artifactKey: Guid(c0e2256d618fc644890aa458f07eb6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/DEMO GRAPHICS/SETTINGS/Shape 132.png using Guid(c0e2256d618fc644890aa458f07eb6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3dae7d50740fe28d876abdc2ffd37ad0') in 0.037909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape 42.png
+  artifactKey: Guid(9eaf0657953527842903509941680522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape 42.png using Guid(9eaf0657953527842903509941680522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3785732d774a2ec18210efb47e78c8e9') in 0.035059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/F.png
+  artifactKey: Guid(395911ee91393ee43aefc7c61a2db64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/F.png using Guid(395911ee91393ee43aefc7c61a2db64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bdd0ce0ed11fff184986ef63323c4668') in 0.036758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LoadingDialog PNGS/Shape 19.png
+  artifactKey: Guid(75191ecabad9ccb4c81700a946e7d41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/LoadingDialog PNGS/Shape 19.png using Guid(75191ecabad9ccb4c81700a946e7d41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e787fbac48eb6c26d1b0df6ac42f601') in 0.035152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape4.png
+  artifactKey: Guid(11ce7ee7249bd634e88a00c1de4c589a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/HQ PIXEL UI/ASSETS/PNGS/GamePlay/Shape4.png using Guid(11ce7ee7249bd634e88a00c1de4c589a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59014a17eacbcfa8dcd487681a99e2d5') in 0.034177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Key.png
+  artifactKey: Guid(27f6fa1fe699a0b40b2091758617ab74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/Key.png using Guid(27f6fa1fe699a0b40b2091758617ab74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c950de044d10646a14c3ad9af7a16c4b') in 0.047303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CheckGold.png
+  artifactKey: Guid(1c6157252a55413499d1cf82dacde9e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/CheckGold.png using Guid(1c6157252a55413499d1cf82dacde9e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bcf689da9d8896f65c36041657563faf') in 0.058288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SearchBrown.png
+  artifactKey: Guid(59288df94a7acb245bde113f9aaf4797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/SearchBrown.png using Guid(59288df94a7acb245bde113f9aaf4797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92bdff6f5c1c84d0ac97e6e26da9755d') in 0.036298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/RepeatGold.png
+  artifactKey: Guid(05cb9da8b0643e64faf95b0530a5b29f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/RepeatGold.png using Guid(05cb9da8b0643e64faf95b0530a5b29f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '66711626aa599542916a14d76e65a788') in 0.033015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowDownGreenDark.png
+  artifactKey: Guid(78114b885b36db94ea95211069fcb893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OriginalAssets/Honeti/PixelArtGUI/Textures/Icons/8/ArrowDownGreenDark.png using Guid(78114b885b36db94ea95211069fcb893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2279ff45ed9781d4a84dd31c99b63604') in 0.036820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (304.2 KB). Loaded Objects now: 6653.
+Memory consumption went from 114.7 MB to 114.4 MB.
+Total: 10.808900 ms (FindLiveObjects: 1.044800 ms CreateObjectMapping: 0.586000 ms MarkObjects: 8.139800 ms  DeleteObjects: 1.036100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/HoverAnimation.cs: 581febbb1e68f4788cd51dd85aa88cb6 -> ef410ed820288a313603e32572567da5
+  custom:scripting/monoscript/fileName/CanvasGroupAnimation.cs: cdaec9a17bfd778b819a125d601c5d9d -> cbaf14739d5deaab4553eb96d7ddecc9
+  custom:scripting/monoscript/fileName/SoundOnEnable.cs: beecccf5ab1fd96022e8049ee71d3861 -> 7dd58ad747558a9d44febd80f8f1d8e9
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/FillImageAnim.cs: 50801aa7403c3ec32721e768deec309d -> 7f04afd3250785bac95f7c5bb5a2d804
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Loading.cs: d2687a4c35153b9773113b6ec963b206 -> 6632fd05ada41f7fd7027e3a3b6ecb2e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PositionLerpAnimation.cs: f62459ba8bee62e81b21106ff49fe4b5 -> 8c2f9c48c62788da138cf220220a568c
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RotationAnimation.cs: 2fc995a0516e1501ca9e2bd62e95f331 -> 8fdc50408351796c5b85aea97b99c803
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ButtonSound.cs: 942698d3fe8d4ed02fd790819d4d63da -> d73cf73b297d33e10c74b31e39dd7781
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 3f04bb71b87e8d48c868e5edc84da13e -> 0ca54484a69b9b213a814a2cd7fae118
+  custom:scripting/monoscript/fileName/MySounder.cs: 28bb195a1d7647727eeb6557e1d114d8 -> 60319f4b1d97baa5a77685e8f8b14fc4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

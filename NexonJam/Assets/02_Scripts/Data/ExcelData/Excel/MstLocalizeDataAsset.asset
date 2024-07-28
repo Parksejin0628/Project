@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2c22457c0c09e48887c714dd179151, type: 3}
+  m_Name: MstLocalizeDataAsset
+  m_EditorClassIdentifier: 
+  DefaultStageDataEntities:
+  - Column_Name: Test1
+    ko: "\uD14C\uC2A4\uD2B81"
+    en: Test1
+    ja: "\u30C6\u30B9\u30C81"
+  - Column_Name: Test2
+    ko: "\uD14C\uC2A4\uD2B82"
+    en: Test2
+    ja: "\u30C6\u30B9\u30C82"
+  - Column_Name: Test3
+    ko: "\uD14C\uC2A4\uD2B83"
+    en: Test3
+    ja: "\u30C6\u30B9\u30C83"
+  - Column_Name: Test4
+    ko: "\uD14C\uC2A4\uD2B84"
+    en: Test4
+    ja: "\u30C6\u30B9\u30C84"
+  - Column_Name: UI_ExampleScene_ExampleTxt
+    ko: "\uD14C\uC2A4\uD2B85"
+    en: Test5
+    ja: "\u30C6\u30B9\u30C85"
